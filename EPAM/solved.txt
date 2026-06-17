@@ -1,0 +1,6 @@
+def caculateArea():
+    def __init__(self):
+        if type(self) is Shape:
+            raise TypeError("Can't instantiate base class directly")
+            
+
