@@ -12,7 +12,7 @@ def rotate(arr, k):
             start+=1
             end-=1
     rev(0,n-1)
-    rev(0,k)
+    rev(0,k-1)
     rev(k,n-1)
 
     return arr
