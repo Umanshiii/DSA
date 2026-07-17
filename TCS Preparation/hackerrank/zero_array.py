@@ -10,6 +10,7 @@ def zero(arr,n):
   if arrand==0:
     return 0
   
-  return arrand.bit_count()
+  return arrand.bit_count() # or bin(arrand).count('1')
   
 print(zero(arr,n))
+
